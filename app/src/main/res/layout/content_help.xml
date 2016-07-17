@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="x.bombsurge.Help"
+    tools:showIn="@layout/activity_help">
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mainlogo"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="@string/help_intro" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Bomb"  />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bomb"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/bomb_info"  />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Tnt"  />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tnt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/tnt_info"  />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Mini Diver"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/mini" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/mini_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Clock"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/clock" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/clock_info" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Snow Man Head"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/snowman" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/snowman_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Bolt"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bolt" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/bolt_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Nuke"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/nuke" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/nuke_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Wizard Hat"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/wizard" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/wizard_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="Gun"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/gun" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/gun_info" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:text="COMBO"  />
+
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="40dp"
+            android:background="@drawable/combo" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/combo_info" />
+    </LinearLayout>
+
+
+
+</ScrollView>

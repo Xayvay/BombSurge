@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_id": "bomb-surge",
+    "project_number": "880173902932",
+    "name": "Bomb Surge"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880173902932:android:6e50acc29adb21a8",
+        "client_id": "android:x.bombsurge",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "x.bombsurge",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880173902932-etlhrde949nql9fvddifddlduthdvph7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "x.bombsurge",
+            "certificate_hash": "76675708315D51ECAEE5430956D9A547F24541EC"
+          }
+        },
+        {
+          "client_id": "880173902932-6hm58osjgk31tjfu2actoqm8j7pbnhhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880173902932-6hm58osjgk31tjfu2actoqm8j7pbnhhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

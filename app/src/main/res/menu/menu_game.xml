@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="x.wrongside.Game">
+    <item
+        android:id="@+id/upgrades"
+        android:icon="@drawable/comingsoon"
+        android:title="Coming Soon"
+        app:showAsAction="always"
+        />
+
+    <item
+    android:id="@+id/mainMenu"
+    android:icon="@drawable/main"
+    android:title="Main"
+    app:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/score"
+        android:title="Score"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/play"
+        android:icon="@drawable/play"
+        android:title="play"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/pause"
+        android:icon="@drawable/pause"
+        android:title="Pause"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/counter"
+        android:title="Time"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:title="Help"
+        app:showAsAction="never"/>
+    <item android:id="@+id/options"
+        android:icon="@drawable/options"
+        android:title="settings"
+        app:showAsAction="never"/>
+
+
+
+</menu>

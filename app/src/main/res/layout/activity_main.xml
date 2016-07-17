@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background= "@drawable/background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="15.5sp"
+    android:weightSum="1">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="396dp"
+            android:layout_gravity="center"
+            android:background="#CC000000">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mainlogo"
+            android:id="@+id/cornerImage" />
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content">
+            </com.google.android.gms.common.SignInButton>
+
+            <Button
+                android:id="@+id/sign_out_button"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shred"
+                android:textColor="@color/white"
+                android:text="Sign Out"
+                android:visibility="gone" />
+            <LinearLayout
+                android:layout_width="367dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/leaderboards"
+                android:background="@drawable/lboard"
+                android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="358dp"
+            android:layout_height="223dp"
+            android:layout_gravity="center"
+            android:background="@drawable/gamelogo"
+            android:id="@+id/mainlogo" />
+
+        <Button
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:id="@+id/resume"
+            android:visibility="gone"
+            android:background="@drawable/shape"
+            android:layout_gravity="center" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text=""
+                android:id="@+id/mainPB" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@null">
+
+            <Button
+                android:id="@+id/buttonNewGame"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"
+                android:background="@drawable/gplay"
+                android:shadowColor="#F2F2F2"
+                android:shadowDx="0"
+
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_width="118dp"
+                android:layout_height="match_parent" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="121dp"
+                android:layout_gravity="center"
+                android:background="@null">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:text="Music"
+                    android:id="@+id/textView" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:layout_gravity="center"
+                    android:id="@+id/music" />
+
+                <Button
+                    android:id="@+id/buttonHelp"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="31sp"
+                    android:layout_width="132dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/helpbutton"
+                    android:shadowColor="#F2F2F2"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@null">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:text="Audio"
+                    android:id="@+id/textView2" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape"
+                    android:id="@+id/gameaudio" />
+
+                <Button
+                    android:id="@+id/buttonExit"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:textSize="31sp"
+                    android:layout_width="83dp"
+                    android:layout_height="46dp"
+                    android:background="@drawable/exit"
+                    android:shadowColor="#F2F2F2"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+      </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@null">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+</LinearLayout>

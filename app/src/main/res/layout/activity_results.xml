@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@null">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:text="Personal Best:"
+            android:id="@+id/personalBest"
+            android:layout_gravity="center_horizontal|top" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:id="@+id/finalscore" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/bigexplosion"
+            android:id="@+id/imageView" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Replay"
+            android:id="@+id/replay"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="Main Menu"
+            android:id="@+id/main"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@null">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="188dp"
+            ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id1">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+</LinearLayout>
