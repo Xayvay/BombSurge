@@ -1,4 +1,4 @@
-package x.bombsurge;
+package x.bombsurge.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,6 +15,17 @@ import android.view.SurfaceView;
 
 import java.util.ArrayList;
 import java.util.Random;
+
+import x.bombsurge.model.Clocker;
+import x.bombsurge.model.Cloud;
+import x.bombsurge.controller.GameActivity;
+import x.bombsurge.model.Laser;
+import x.bombsurge.model.Mini;
+import x.bombsurge.model.Mushroom;
+import x.bombsurge.R;
+import x.bombsurge.model.Bomb;
+import x.bombsurge.model.TNT;
+import x.bombsurge.model.Upgrades;
 
 public class GameView extends SurfaceView implements SurfaceHolder.Callback
 {

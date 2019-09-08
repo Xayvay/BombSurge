@@ -1,4 +1,4 @@
-package x.bombsurge;
+package x.bombsurge.controller;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -22,6 +22,11 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
+
+import x.bombsurge.Globals;
+import x.bombsurge.Help;
+import x.bombsurge.view.MyPlaybackService;
+import x.bombsurge.R;
 //import com.google.android.gms.games.Games;
 
 

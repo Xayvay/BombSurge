@@ -1,16 +1,18 @@
-package x.bombsurge;
+package x.bombsurge.model;
 
-public class Upgrades
+import x.bombsurge.controller.GameActivity;
+
+public class TNT
 {
 	float posX;
 	float posY;
 	public static float rate;
 
-	public Upgrades(float x, float y)
+	public TNT(float x, float y)
 	{
 		posX = x;
 		posY = y;
-		rate = GameActivity.rateInc/2;
+		rate = GameActivity.rateInc + 6;
 	}
 
 	public void tick()

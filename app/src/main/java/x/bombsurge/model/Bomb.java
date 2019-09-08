@@ -1,10 +1,12 @@
-package x.bombsurge;
+package x.bombsurge.model;
+
+import x.bombsurge.controller.GameActivity;
 
 public class Bomb
 {
-	float posX;
-	float posY;
-	public static float rate;
+	private float posX;
+	private float posY;
+	private float rate;
 
 	public Bomb(float x, float y)
 	{

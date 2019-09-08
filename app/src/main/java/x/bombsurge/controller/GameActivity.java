@@ -1,4 +1,4 @@
-package x.bombsurge;
+package x.bombsurge.controller;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,6 +17,10 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 
 import java.util.concurrent.TimeUnit;
+
+import x.bombsurge.R;
+import x.bombsurge.view.Results;
+import x.bombsurge.view.GameView;
 
 public class GameActivity extends AppCompatActivity
 {

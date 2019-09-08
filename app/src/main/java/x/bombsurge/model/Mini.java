@@ -1,9 +1,11 @@
-package x.bombsurge;
+package x.bombsurge.model;
+
+import x.bombsurge.controller.GameActivity;
 
 public class Mini
 {
-	float posX;
-	float posY;
+	private float posX;
+	private float posY;
 	public static float rate;
 
 	public Mini(float x, float y)

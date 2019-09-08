@@ -1,4 +1,4 @@
-package x.bombsurge;
+package x.bombsurge.view;
 
 import android.app.Service;
 import android.content.Intent;

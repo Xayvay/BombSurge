@@ -1,4 +1,6 @@
-package x.bombsurge;
+package x.bombsurge.model;
+
+import x.bombsurge.controller.GameActivity;
 
 public class Laser
 {

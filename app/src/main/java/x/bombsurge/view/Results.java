@@ -1,10 +1,8 @@
-package x.bombsurge;
+package x.bombsurge.view;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
@@ -12,13 +10,18 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import x.bombsurge.Globals;
+import x.bombsurge.R;
+import x.bombsurge.controller.GameActivity;
+import x.bombsurge.controller.MainActivity;
+
 /**
  * Created by X on 9/29/2015.
  */
-public class Results extends AppCompatActivity implements View.OnClickListener
+public class Results implements View.OnClickListener
 {
 
-    SharedPreferences bestScore;
+     SharedPreferences bestScore;
 
     /** Called when the activity is first created. */
     @Override

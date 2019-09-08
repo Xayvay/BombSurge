@@ -1,4 +1,4 @@
-package x.bombsurge;
+package x.bombsurge.model;
 
 public class Mushroom
 {
