@@ -22,7 +22,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
 //    # Google+
 //            compile com.google.android.gms:play-services-plus:8.4.0
 //    # Google Account Login
