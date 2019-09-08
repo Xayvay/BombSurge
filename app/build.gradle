@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "x.bombsurge"
-        minSdkVersion 15
-        targetSdkVersion 23
-        versionCode 17
-        versionName "2.1"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 18
+        versionName "3.0"
     }
     buildTypes {
         release {
@@ -20,48 +20,45 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:design:23.1.1'
 
 //    # Google+
 //            compile com.google.android.gms:play-services-plus:8.4.0
 //    # Google Account Login
-    compile 'com.google.android.gms:play-services-auth:8.4.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
 //    # Google Actions, Base Client Library
-    compile 'com.google.android.gms:play-services-base:8.4.0'
+    implementation 'com.google.android.gms:play-services-base:17.1.0'
 //    # Google Address API
-    compile 'com.google.android.gms:play-services-identity:8.4.0'
+    implementation 'com.google.android.gms:play-services-identity:17.0.0'
 //    # Google App Indexing
-    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    implementation 'com.google.firebase:firebase-appindexing:19.0.0'
 //    # Google App Invites
-    compile 'com.google.android.gms:play-services-appinvite:8.4.0'
+    implementation 'com.google.android.gms:play-services-appinvite:18.0.0'
 //    # Google Analytics
-    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
 //    # Google Cast
 //    compile com.google.android.gms:play-services-cast:8.4.0
 //    # Google Cloud Messaging
-    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
 //    # Google Drive
 //    compile com.google.android.gms:play-services-drive:8.4.0
 //    # Google Fit
 //    compile com.google.android.gms:play-services-fitness:8.4.0
 //    # Google Location, Activity Recognition, and Places
-    compile 'com.google.android.gms:play-services-location:8.4.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
 //    # Google Maps
-    compile 'com.google.android.gms:play-services-maps:8.4.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
 //    # Google Mobile Ads
-    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    implementation 'com.google.android.gms:play-services-ads:18.2.0'
 //    # Mobile Vision
 //    compile com.google.android.gms:play-services-vision:8.4.0
 //    # Google Nearby
-    compile 'com.google.android.gms:play-services-nearby:8.4.0'
+    implementation 'com.google.android.gms:play-services-nearby:17.0.0'
 //    # Google Panorama Viewer
 //    compile com.google.android.gms:play-services-panorama:8.4.0
 //    # Google Play # Game services
-    compile 'com.google.android.gms:play-services-games:8.4.0'
+    implementation 'com.google.android.gms:play-services-games:18.0.1'
 //    # SafetyNet
 //    compile com.google.android.gms:play-services-safetynet:8.4.0
 //    # Google Wallet

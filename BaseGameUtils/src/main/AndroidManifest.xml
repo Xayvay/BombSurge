@@ -16,12 +16,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.google.example.games.basegameutils"
     android:versionCode="9"
     android:versionName="1.0">
-
-    <uses-sdk tools:overrideLibrary="android.support.v7.appcompat, android.support.v4,com.google.android.gms.games,com.google.android.gms.base,com.google.android.gms,com.google.android.gms.drive,com.google.android.gms.plus"/>
 
     <application>
         <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
